@@ -1,0 +1,2 @@
+*p is 10
+after *p = 99, x is 99

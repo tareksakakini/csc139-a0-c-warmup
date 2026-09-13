@@ -1,0 +1,4 @@
+open returned a non-negative fd: yes
+0, 1 and 2 were already taken, so fd is at least 3: yes
+close returned 0: yes
+opening a missing file returned -1: yes

@@ -1,0 +1,2 @@
+250 + 10 in an unsigned char is 4
+4294967295 + 1 in an unsigned int is 0

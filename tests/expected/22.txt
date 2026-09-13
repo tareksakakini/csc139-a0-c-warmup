@@ -1,0 +1,5 @@
+sizeof(buf) is 32 bytes of storage
+strlen(buf) is 5 characters
+after overwriting:
+sizeof(buf) is 32 bytes of storage
+strlen(buf) is 12 characters

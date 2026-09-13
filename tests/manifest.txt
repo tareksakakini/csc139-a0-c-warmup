@@ -1,0 +1,42 @@
+# num|slug|title|mode|extra-cflags|args|stdin-file      ('-' means none)
+01|hello|hello|run|-|-|-
+02|compiler_errors|reading compiler errors|run|-|-|-
+03|warnings|warnings are bugs|run|-Werror|-|-
+04|types_and_sizeof|types have sizes|run|-|-|-
+05|integer_division|integer division|run|-|-|-
+06|truthiness|there is no boolean|run|-|-|-
+07|loops|the for loop|run|-|-|-
+08|functions|declare before you use|run|-|-|-
+09|overflow|integers wrap around|run|-|-|-
+10|arrays|arrays|run|-|-|-
+11|array_length|arrays do not know their length|run|-|-|-
+12|off_by_one|nobody checks your indexes|run|-fsanitize=address,undefined|-|-
+13|asan|let the sanitizer find it|run|-fsanitize=address,undefined|-|-
+14|address_of|variables have addresses|run|-fsanitize=address,undefined|-|-
+15|dereference|following a pointer|run|-fsanitize=address,undefined|-|-
+16|pointer_params|pass by value, always|run|-fsanitize=address,undefined|-|-
+17|pointer_arith|pointer arithmetic counts elements|run|-fsanitize=address,undefined|-|-
+18|array_decay|arrays decay into pointers|run|-fsanitize=address,undefined|-|-
+19|index_is_arith|indexing IS pointer arithmetic|run|-fsanitize=address,undefined|-|-
+20|null_pointer|NULL and the check you must write|run|-fsanitize=address,undefined|-|-
+21|char_array|a string is bytes plus a zero|run|-fsanitize=address,undefined|-|-
+22|strlen_vs_sizeof|length is not capacity|run|-fsanitize=address,undefined|-|-
+23|string_literals|literals are read-only|run|-fsanitize=address,undefined|-|-
+24|string_compare|== compares addresses|run|-fsanitize=address,undefined|-|-
+25|buffer_overflow|the classic buffer overflow|run|-fsanitize=address,undefined|-|-
+26|dangling|locals die when the function returns|run|-fsanitize=address,undefined -Werror|-|-
+27|malloc|asking for memory at run time|run|-fsanitize=address,undefined|-|-
+28|use_after_free|freed memory is not yours|run|-fsanitize=address,undefined|-|-
+29|leak|what you allocate, you free|run|-fsanitize=address,undefined|-|-
+30|realloc|growing a block|run|-fsanitize=address,undefined|-|-
+31|structs|grouping values together|run|-fsanitize=address,undefined|-|-
+32|struct_pointers|the arrow operator|run|-fsanitize=address,undefined|-|-
+33|headers|what #include actually does|run|-fsanitize=address,undefined|-|-
+34|return_codes|errors come back as values|run|-fsanitize=address,undefined|-|-
+35|errno|errno says why|run|-fsanitize=address,undefined|-|-
+36|argv|arguments arrive as strings|run|-fsanitize=address,undefined|alpha beta|-
+37|size_types|size_t is unsigned|run|-fsanitize=address,undefined -Werror|-|-
+38|file_descriptors|file descriptors|run|-fsanitize=address,undefined|-|-
+39|read_bytes|read() fills a buffer you own|run|-fsanitize=address,undefined|-|-
+40|read_loop|one read is not enough|run|-fsanitize=address,undefined|-|-
+41|write_loop|write() may not write it all|run|-fsanitize=address,undefined|-|-

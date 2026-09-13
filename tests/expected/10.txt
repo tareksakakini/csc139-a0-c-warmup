@@ -1,0 +1,6 @@
+scores[0] = 90
+scores[1] = 75
+scores[2] = 88
+scores[3] = 100
+scores[4] = 62
+total = 415

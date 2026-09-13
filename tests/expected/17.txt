@@ -1,0 +1,4 @@
+*p is 10
+*(p + 1) is 20
+*(p + 3) is 40
+p + 1 is 4 bytes further along than p

@@ -1,0 +1,3 @@
+as a string: hello
+byte 0 is 'h' with value 104
+byte 5 has value 0

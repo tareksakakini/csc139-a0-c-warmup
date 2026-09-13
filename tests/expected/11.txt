@@ -1,0 +1,4 @@
+sizeof(items) = 24 bytes
+one element   = 4 bytes
+so n          = 6
+sum           = 36

@@ -1,0 +1,3 @@
+x holds 42
+an address takes 8 bytes
+&x and &y are different: yes

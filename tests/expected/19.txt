@@ -1,0 +1,4 @@
+a[2] is 30
+*(a + 2) is 30
+2[a] is 30
+all three are the same element: yes

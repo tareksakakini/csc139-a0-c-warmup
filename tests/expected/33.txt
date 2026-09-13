@@ -1,0 +1,3 @@
+max is 30
+sum is 73
+max of one item is 7

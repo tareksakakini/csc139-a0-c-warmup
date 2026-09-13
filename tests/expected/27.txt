@@ -1,0 +1,2 @@
+allocated room for 6 ints
+0 2 4 6 8 10

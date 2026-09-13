@@ -1,0 +1,3 @@
+argc is 3
+argv[1] is alpha
+argv[2] is beta

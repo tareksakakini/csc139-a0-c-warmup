@@ -1,0 +1,4 @@
+a is at (3, 4)
+b is at (3, 4)
+after moving b, a is at (3, 4)
+b is at (10, 4)

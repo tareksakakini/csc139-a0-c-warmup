@@ -1,0 +1,4 @@
+char   is 1 bytes
+int    is 4 bytes
+long   is 8 bytes
+double is 8 bytes

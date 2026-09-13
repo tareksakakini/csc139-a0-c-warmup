@@ -1,0 +1,4 @@
+0 is false
+1 is true
+-1 is true
+42 is true

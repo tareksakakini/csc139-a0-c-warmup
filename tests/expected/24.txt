@@ -1,0 +1,3 @@
+a == b: no
+strcmp(a, b) == 0: yes
+"apple" vs "banana": apple sorts first

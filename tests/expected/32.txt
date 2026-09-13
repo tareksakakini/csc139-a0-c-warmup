@@ -1,0 +1,2 @@
+start: (3, 4)
+after move: (8, 1)

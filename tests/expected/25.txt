@@ -1,0 +1,2 @@
+copied: this is
+that is 7 characters into an 8-byte buffer

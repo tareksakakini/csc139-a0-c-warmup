@@ -1,0 +1,2 @@
+pushed 5 items, capacity ended at 8
+0 10 20 30 40

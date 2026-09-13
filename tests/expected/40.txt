@@ -1,0 +1,2 @@
+total bytes: 46
+read() calls: 13
