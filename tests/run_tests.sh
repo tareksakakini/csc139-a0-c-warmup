@@ -11,6 +11,15 @@
 
 set -uo pipefail
 
+# This course is written, tested and graded on Linux. On any other system some
+# of these checks cannot work - the leak detector in exercise 29 does not exist
+# outside Linux, so a leaking program would be reported as correct. A green
+# check that does not mean your code is right is worse than no check, so stop.
+if [ "$(uname -s)" != "Linux" ]; then
+  echo "This must be run on Linux - see docs/SETUP.md, or run 'make check-env'." >&2
+  exit 1
+fi
+
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 MANIFEST="$ROOT/tests/manifest.txt"
 EXPECTED_DIR="$ROOT/tests/expected"

@@ -14,8 +14,14 @@ are short on time, go slower there and faster everywhere else.
 
 ## Start here
 
-1. Open the repo — see **[docs/SETUP.md](docs/SETUP.md)**. Codespaces is the
-   zero-install option.
+1. At the top of this page: **Code → Codespaces → Create codespace on main**.
+   Wait about a minute. That is the whole setup — nothing to install, and it is
+   the same Linux environment Assignment 1 is graded in. Other options, and
+   what to do if you would rather work locally, are in
+   **[docs/SETUP.md](docs/SETUP.md)**.
+
+   This must run on Linux. `make check-env` will stop you otherwise, and
+   docs/SETUP.md explains why that is a real constraint and not a preference.
 2. Run the environment check. Every line must pass:
 
    ```bash

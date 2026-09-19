@@ -42,6 +42,18 @@ make check-env
 
 ---
 
-**macOS users:** do not write this on macOS directly. The C is the same, but
-the system calls in Phase 9 are not, and Assignment 1 is graded on Linux. Use
-one of the options above.
+## Not on Linux? Then not at all
+
+`make check-env` will stop you, on purpose. This is not fussiness about
+platforms:
+
+- **Exercise 29 cannot be checked off Linux.** The memory-leak detector ships
+  with AddressSanitizer on Linux only. Everywhere else a leaking program is
+  reported as *correct* - and a green check that does not mean your code is
+  right is worse than no check at all.
+- **Assignment 1 does not work off Linux.** Its system-call tracing has no
+  equivalent on macOS, and `dtruss` is blocked by System Integrity Protection.
+- **You are graded on Linux.** Whatever passes on your laptop is not the thing
+  being marked.
+
+Option A above costs you nothing and takes a minute. Use it.
