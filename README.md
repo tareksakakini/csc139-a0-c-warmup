@@ -1,5 +1,7 @@
 # CSC 139 — Assignment 0: the C warm-up
 
+**Optional. Not graded. Nothing to submit.**
+
 **41 exercises. One new idea each. Assume you can already program; assume you
 have never written C.**
 
@@ -12,17 +14,25 @@ are short on time, go slower there and faster everywhere else.
 
 ---
 
+## Where you will work
+
+**GitHub Codespaces.** That is the environment for these exercises — not your
+laptop, not a VM, not your own Linux install. Everything is already installed
+there, everyone gets the same setup, and it is the same environment Assignment
+1 is graded in.
+
+It is not a preference. Two of these checks cannot work anywhere else, and
+both `make check-env` and the test runner stop if they are not on Linux.
+docs/SETUP.md explains exactly why.
+
+**Setup instructions: [docs/SETUP.md](docs/SETUP.md)** — about five minutes,
+nothing to install.
+
 ## Start here
 
-1. At the top of this page: **Code → Codespaces → Create codespace on main**.
-   Wait about a minute. That is the whole setup — nothing to install, and it is
-   the same Linux environment Assignment 1 is graded in. Other options, and
-   what to do if you would rather work locally, are in
-   **[docs/SETUP.md](docs/SETUP.md)**.
-
-   This must run on Linux. `make check-env` will stop you otherwise, and
-   docs/SETUP.md explains why that is a real constraint and not a preference.
-2. Run the environment check. Every line must pass:
+1. Follow **[docs/SETUP.md](docs/SETUP.md)**: make your own copy with **Use
+   this template**, then **Code → Codespaces → Create codespace on main**.
+2. Run the environment check:
 
    ```bash
    make check-env
@@ -74,17 +84,18 @@ In this order:
 make solution-07   # build and run the reference version
 ```
 
-## Submitting
+## There is nothing to submit
 
-This is completion credit, not a graded assignment. When `make test` is green:
+This is optional practice. It is not graded, there is no deadline, and nothing
+gets uploaded anywhere. The scoreboard is the only feedback there is:
 
 ```bash
-make report        # writes progress.txt
+make progress
 ```
 
-Upload `progress.txt` to Canvas. If some exercises are still failing when the
-deadline arrives, submit it anyway — a partial run tells me where the class is
-stuck, which is more useful to me than a perfect score.
+Nobody sees it but you. Stop whenever you like — but the four exercises in
+Phase 9 are the ones that pay off immediately, so if you are going to stop
+early, at least skim them.
 
 ## Then
 
